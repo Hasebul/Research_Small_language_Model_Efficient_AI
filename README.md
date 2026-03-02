@@ -10,6 +10,16 @@ As the AI industry shifts toward running powerful models on edge devices with lo
 
 Below is a curated reading list of recent surveys, technical reports, and breakthroughs in the realm of SLMs and efficient AI.
 
+Paper Title | Overview | Link |
+| :--- | :--- | :--- |
+| **HYMBA: A Hybrid-Head Architecture for Small Language Models** | A family of small language models featuring a hybrid-head parallel architecture that integrates attention mechanisms and state space models (SSMs) within the same layer, offering parallel and complementary processing of the same inputs. | [Read Paper](https://openreview.net/pdf?id=A1ztozypga) |
+| **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** | Introduces a hardware-aware state space model (SSM) architecture with input-dependent gating. It achieves 5× higher inference throughput than Transformers and scales linearly with sequence length. | [Read Paper](https://arxiv.org/abs/2312.00752) |
+| **Transformers are SSMs: Generalized Models and Efficient Algorithms (Mamba-2)** | Connects SSMs and attention through a State Space Duality (SSD) framework. The resulting Mamba-2 architecture is 2-8× faster than the original Mamba while remaining highly competitive on language modeling. | [Read Paper](https://arxiv.org/abs/2405.21060) |
+| **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning** | An IO-aware, exact attention algorithm that dramatically speeds up training and inference by reducing memory reads/writes between GPU HBM and SRAM. Crucial for understanding modern AI hardware efficiency. | [Read Paper](https://arxiv.org/abs/2307.08691) |
+| **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** | While R1 itself is massive, the researchers open-sourced six highly efficient dense models (1.5B to 32B parameters) distilled from it. Essential for understanding how complex reasoning is distilled into small, efficient footprints. | [Read Paper](https://arxiv.org/abs/2501.12948) |
+| **Qwen2.5-VL Technical Report** | Details the architecture of the Qwen vision-language series. Highly relevant for efficient AI because it addresses diverse use cases from edge AI to high-performance computing, bringing native dynamic-resolution processing to smaller scales. | [Read Paper](https://arxiv.org/abs/2502.13923) |
+
+
 ### 1. Foundational Surveys and Reviews
 * **State of the Art and Future Directions of Small Language Models: A Systematic Review (2025)**
     * *Overview:* A comprehensive analysis of SLM developments from 2023 to 2025, focusing on models with up to 7 billion parameters. It provides a great structural overview of current methodologies, parameter distribution, and the bimodal focus on <1B and 4B-7B models.

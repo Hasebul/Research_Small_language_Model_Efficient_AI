@@ -35,6 +35,14 @@ Below is a curated reading list of recent surveys, technical reports, and breakt
 
 If you are looking for labs to follow, collaborate with, or draw inspiration from, these groups are currently at the forefront of Efficient AI and SLM research:
 
+| Affiliation | PI / Lab | Link |
+| :--- | :--- | :--- |
+| **Princeton University** | Tri Dao | [https://tridao.me/](https://tridao.me/) |
+| **MIT & NVIDIA** | Song Han *(Han Lab)* | [https://hanlab.mit.edu/](https://hanlab.mit.edu/) |
+| **Yale University / USC** | Priyadarshini Panda *(Intelligent Computing Lab)* | [https://intelligentcomputinglab.yale.edu/](https://intelligentcomputinglab.yale.edu/) |
+| **Georgia Tech** | Yingyan (Celine) Lin *(EIC Lab)* | [https://eiclab.net/](https://eiclab.net/) |
+| **Microsoft Research** | Efficient AI Group | [https://www.microsoft.com/en-us/research/](https://www.microsoft.com/en-us/research/) |
+
 * **Efficient AI Team (NVIDIA & MIT)**
     * *Focus:* A collaboration dedicated to GPU-accelerated efficient AI computing. They focus on hardware-aware optimization, quantization-enhanced reinforcement learning (QeRL), and long-video generation with real-time autoregressive frameworks. 
 * **Efficient AI Group (Microsoft Research)**

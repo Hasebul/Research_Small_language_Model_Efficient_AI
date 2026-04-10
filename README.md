@@ -19,6 +19,7 @@ Paper Title | Overview | Link |
 | **FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning** | An IO-aware, exact attention algorithm that dramatically speeds up training and inference by reducing memory reads/writes between GPU HBM and SRAM. Crucial for understanding modern AI hardware efficiency. | [Read Paper](https://arxiv.org/abs/2307.08691) |
 | **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** | While R1 itself is massive, the researchers open-sourced six highly efficient dense models (1.5B to 32B parameters) distilled from it. Essential for understanding how complex reasoning is distilled into small, efficient footprints. | [Read Paper](https://arxiv.org/abs/2501.12948) |
 | **Qwen2.5-VL Technical Report** | Details the architecture of the Qwen vision-language series. Highly relevant for efficient AI because it addresses diverse use cases from edge AI to high-performance computing, bringing native dynamic-resolution processing to smaller scales. | [Read Paper](https://arxiv.org/abs/2502.13923) |
+|**REFT**| Details on how we use representaiton kind of things | [Read Paper]{https://arxiv.org/pdf/2404.03592}. |
 
 
 ### 1. Foundational Surveys and Reviews
